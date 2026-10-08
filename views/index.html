@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tracked views | SignalTrace</title>
+<meta name="description" content="Logged judgments from official releases, with evidence and the conditions that would change them.">
+<style>
+:root { --bg:#fbf8f1; --fg:#1d1d1b; --muted:#5b5850; --link:#1f4fbf; --mark:#ffe066; --rule:#e4dfd3; --card:#fffdf8; --accent:#b4471f; }
+@media (prefers-color-scheme: dark) { :root { --bg:#161614; --fg:#ecebe6; --muted:#a9a59b; --link:#8fb0ff; --mark:#6b5a12; --rule:#2e2d29; --card:#1e1d1a; --accent:#f08a5d; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 Georgia,"Times New Roman",serif; }
+main { max-width:680px; margin:0 auto; padding:40px 16px 64px; }
+a { color:var(--link); }
+.kicker { font:600 .75rem/1.4 system-ui,sans-serif; letter-spacing:.14em; color:var(--muted); margin:0 0 10px; text-transform:uppercase; }
+h1 { font-size:1.75rem; line-height:1.2; margin:0 0 6px; }
+h2 { font:600 .8rem/1.4 system-ui,sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:36px 0 10px; padding-top:14px; border-top:1px solid var(--rule); }
+.theme { color:var(--muted); margin:0 0 18px; }
+.read { font-size:1.35rem; line-height:1.35; margin:0 0 14px; }
+mark { background:var(--mark); color:inherit; padding:0 .15em; }
+.rows { margin:0; display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.2fr); gap:6px 16px; }
+.rows dt { color:var(--muted); }
+.rows dd { margin:0; }
+.rows .accent { color:var(--accent); font-weight:600; }
+.card { background:var(--card); border:1px solid var(--rule); border-radius:6px; padding:14px 16px; margin:0 0 12px; }
+.card h3 { font-size:1rem; margin:0 0 6px; }
+.stat { font-size:1.6rem; font-weight:700; margin:0; }
+.meta { font:.85rem/1.5 system-ui,sans-serif; color:var(--muted); margin:6px 0 0; }
+.badge { font:600 .7rem/1 system-ui,sans-serif; letter-spacing:.08em; text-transform:uppercase; border:1px solid var(--rule); border-radius:3px; padding:3px 6px; margin-right:6px; }
+ul.lines { margin:0 0 4px; padding-left:1.1em; }
+.status { font:.9rem/1.5 system-ui,sans-serif; margin:0 0 4px; }
+.links { display:flex; flex-wrap:wrap; gap:10px 18px; font:.95rem/1.5 system-ui,sans-serif; margin:18px 0 0; }
+.view { padding:14px 0; border-bottom:1px solid var(--rule); }
+.view h3 { font-size:1.1rem; margin:0 0 4px; }
+.view p { margin:0; }
+footer { margin-top:40px; padding-top:14px; border-top:1px solid var(--rule); color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+<p class="kicker">SignalTrace · tracked views</p>
+<h1>Views we log, then check back on</h1>
+<p class="theme">Each view comes with the evidence behind it, what would change it, and a log of how it held up.
+Short videos: <a href="https://www.youtube.com/@SignalTraceFinance">YouTube</a> · threads: <a href="https://x.com/SignalTraceLab">X</a>.</p>
+<div class="view"><p class="kicker">Logged Oct 8, 2026</p>
+<h3><a href="imf-hedge-fund-liquidity.html">Can the usual liquidity provider add pressure during a shock?</a></h3>
+<p><mark>role turns only on overlap</mark></p><p class="meta">Latest: First read: role turns only on overlap. Next check: When official margin data follow.</p></div><div class="view"><p class="kicker">Logged Oct 5, 2026</p>
+<h3><a href="fed-reg.html">Will the Fed&#x27;s insider-loan rule change bank lending?</a></h3>
+<p><mark>only the deadline moved</mark></p><p class="meta">Latest: First read: only the deadline moved. Next check: After the November 4 comment deadline (due Nov 4, 2026).</p></div><div class="view"><p class="kicker">Logged Sep 14, 2026</p>
+<h3><a href="ai-infra.html">Is AI spending paying off yet?</a></h3>
+<p><mark>not proven yet</mark></p><p class="meta">Latest: First read: payback not proven yet. Next check: The next quarterly results.</p></div>
+<footer>Research drafts built from official releases. Educational only, not investment advice.<br>
+<a href="../">SignalTrace: Finance Explained</a> · <a href="../views/">All tracked views</a> · <a href="../privacy.html">Privacy</a></footer>
+</main>
+</body>
+</html>
